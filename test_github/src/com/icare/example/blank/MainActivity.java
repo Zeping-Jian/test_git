@@ -16,17 +16,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         //
         // book is good
-        
-        // test 1
-        AudioManager audioManager = (AudioManager) this.getSystemService(Context.AUDIO_SERVICE);
-        audioManager.setMicrophoneMute(false);        
-        audioManager.setSpeakerphoneOn(true);//使用扬声器外放，即使已经插入耳机
-        setVolumeControlStream(AudioManager.STREAM_MUSIC);//控制声音的大小
-        audioManager.setMode(AudioManager.STREAM_MUSIC); 
-
-        //播放一段声音，查看效果        
-        MediaPlayer playerSound = MediaPlayer.create(this, Uri.parse("file:///system/media/audio/ui/camera_click.ogg"));
-        playerSound.start();	
+       
     }
 
     @Override
