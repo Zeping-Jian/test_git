@@ -19,6 +19,9 @@ public class MainActivity extends Activity {
        
         
         // add same thing
+        
+        
+        // add same thing twice
     }
 
     @Override
